@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Documentation"
+  description: "Documentation for a thing"
+  annotations:
+    github.com/project-slug: danludwig-happymoney/testBack-2
+    backstage.io/techdocs-ref: url:https://github.com/danludwig-happymoney/testBack-2
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "King of Docs"
